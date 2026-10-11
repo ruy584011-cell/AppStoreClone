@@ -1,0 +1,26 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="120" x2="900" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E90FF"/>
+      <stop offset="0.5" stop-color="#7B61FF"/>
+      <stop offset="1" stop-color="#00C2FF"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="250" y1="180" x2="770" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="96" y="96" width="832" height="832" rx="190" fill="url(#bg)"/>
+  <rect x="96" y="96" width="832" height="832" rx="190" fill="url(#shine)"/>
+
+  <circle cx="512" cy="350" r="165" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="700" cy="720" r="110" fill="rgba(255,255,255,0.10)"/>
+
+  <path d="M400 710L512 262L624 710H570L542 614H482L454 710H400ZM492 568H532L521 525L512 483L503 525L492 568Z" fill="white"/>
+
+  <path d="M600 360C640 388 668 432 668 480C668 544 626 592 564 604L540 640H488L514 604C463 594 424 556 424 504C424 448 462 404 512 390C528 384 544 380 562 380C580 380 592 366 600 360Z" fill="rgba(255,255,255,0.85)"/>
+
+  <path d="M698 304C730 318 756 346 770 382L720 398C710 374 690 352 666 336L698 304Z" fill="white" opacity="0.8"/>
+  <path d="M294 686C322 712 360 726 398 726C420 726 440 722 458 714L430 664C416 670 401 674 384 674C356 674 330 662 308 642L294 686Z" fill="white" opacity="0.7"/>
+</svg>
